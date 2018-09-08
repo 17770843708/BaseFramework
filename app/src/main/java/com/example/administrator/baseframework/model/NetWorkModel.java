@@ -15,7 +15,7 @@ public class NetWorkModel {
             public void run() {
                 switch (param){
                     case "normal":
-                        callback.onSuccess("根据参数"+param+"的请求网络数据成功");
+                        callback.onSuccess("根据参数" + param + "的请求网络数据成功");
                         break;
                     case "failure":
                         callback.onFailure("请求失败：参数有误");
